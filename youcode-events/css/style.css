@@ -1,0 +1,12 @@
+.pol{
+    background-color: rgb(255, 237, 213);
+}
+.pol {
+    display: flex;
+}
+body {
+    margin: 0px;
+}
+.img-cal {
+    height:250px !important;
+}
