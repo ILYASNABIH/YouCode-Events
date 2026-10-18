@@ -3,7 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header-link ul {
@@ -266,14 +268,13 @@ body {
 
 footer {
   background-color: #1c1917;
-  color: #e7e5e4;
-  padding: 60px 20px 40px;
+  color: #FFFFFF;
+  padding-top: 60px;
   font-family: inherit;
 }
 
 .footer-container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 
@@ -349,7 +350,7 @@ footer {
 }
 
 .footer-bottom {
-  border-top: 1px solid #292524;
+  border-top: 1px solid #57534E;
   padding-top: 24px;
 }
 
