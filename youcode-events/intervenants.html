@@ -13,36 +13,31 @@
     
 </head>
 <body>
-  <div class="header">
+ <div class="header">
+  <img width="200" src="assets/icons/YouEvents.png" alt="YouCode logo">
+	
+	<div class="header-link">
+  	<ul id="menuList">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="evenements.html">Événements</a></li>
+      <li><a href="intervenants.html">Intervenants</a></li>
+      <li><a href="inscription.html" class="signin">S'inscrire</a></li>
+  	</ul>
+	</div>
 
-        <img class="textes you-event"
-            width="200"
-            src="assets/icons/YouEvents.png" 
-            alt="YouCode logo">
-<div class="header-link">
-    <ul id="menuList">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="#">Événements</a></li>
-        <li><a href="#">Intervenants</a></li>
-        <li>
-            <a href="inscription.html" class="signin">
-                S'inscrire
-            </a>
-        </li>
-    </ul>
-</div>
-<div class="menu-icon">
+	<div class="menu-icon">
     <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-</div>
+	</div>
 
-<script>
+	<script>
     const menuList = document.getElementById("menuList");
-
     function toggleMenu() {
         menuList.classList.toggle("show");
     }
-</script>
-    </div>
+	</script>
+
+</div>
+
 <main>
   <section class="page-title">
     <div class="textes text-pt">
