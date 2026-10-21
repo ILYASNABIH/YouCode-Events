@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Intervenants</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/youcode-events/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+ <div class="header">
+  <img width="200" src="assets/icons/YouEvents.png" alt="YouCode logo">
+	
+	<div class="header-link">
+  	<ul id="menuList">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="evenements.html">Événements</a></li>
+      <li><a href="intervenants.html">Intervenants</a></li>
+      <li><a href="inscription.html" class="signin">S'inscrire</a></li>
+  	</ul>
+	</div>
+
+	<div class="menu-icon">
+    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+	</div>
+
+	<script>
+    const menuList = document.getElementById("menuList");
+    function toggleMenu() {
+        menuList.classList.toggle("show");
+    }
+	</script>
+
+</div>
+
+<main>
+  <section class="page-title">
+    <div class="textes text-pt">
+      <h1>Intervenants et partenaires</h1>
+      <p>Les professionnels qui animent les événements YouCode et les entreprises qui les soutiennent.</p>
+    </div>
+  </section>
+  <section class="textes speakers">
+  <h2>Intervenants</h2>
+  <div class="intervenants">
+    <div class="profils profil1">
+      <img src="assets/icons/user.png" class="cartes carte1">
+      <h3>Salma Bennani</h3>
+      <h4 class="occupation occup1">Développeuse front-end</h4>
+      <p>Spécialiste de l'accessibilité, elle anime la conférence Accessibilité Web.</p>
+    </div>
+    <div class="profils profil2">
+      <img src="assets/icons/user.png" class="cartes carte2">
+      <h3>Youssef Amrani</h3>
+      <h4 class="occupation occup2">Designer UI</h4>
+      <p>Construit des Design Systems et anime la conférence Du design au code.</p>
+    </div>
+    <div class="profils profil3">
+      <img src="assets/icons/user.png" class="cartes carte3">
+      <h3>Imane El Idrissi</h3>
+      <h4 class="occupation occup3">Développeuse full-stack</h4>
+      <p>Mentore du Hackathon Green Code, attentive à <br>l'éco-conception.</p>
+    </div>
+    <div class="profils profil4">
+      <img src="assets/icons/user.png" class="cartes carte4">
+      <h3>Karim Ouazzani</h3>
+      <h4 class="occupation occup4">Lead développeur</h4>
+      <p>Accompagne les équipes sur Git Flow et la revue de code.</p>
+    </div>
+    <div class="profils profil5">
+      <img src="assets/icons/user.png" class="cartes carte5">
+      <h3>Nadia Tazi</h3>
+      <h4 class="occupation occup5">Cheffe de projet digital</h4>
+      <p>Organise les rencontres entre apprenants et professionnels.</p>
+    </div>
+    <div class="profils profil6">
+      <img src="assets/icons/user.png" class="cartes carte6">
+      <h3>Omar Chraibi</h3>
+      <h4 class="occupation occup6">Intégrateur web</h4>
+      <p>Anime l'atelier Flexbox et CSS Grid.</p>
+    </div>
+  </div>
+</section>
+<section class="textes partners">
+  <h2>Partenaires</h2>
+  <p>Ils accueillent nos événements, proposent des intervenants ou des sujets pour les hackathons.</p>
+  
+  <ul class="partners-grid">
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Atlas Numérique</span>
+    </li>
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Safi Code Lab</span>
+    </li>
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Oasis Cloud</span>
+    </li>
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Medina Data</span>
+    </li>
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Argan Studio</span>
+    </li>
+    <li>
+      <span class="partner-icon"></span>
+      <span class="partner-name">Nador Tech Hub</span>
+    </li>
+  </ul>
+</section>
+</main>
+<footer>
+  <div class="textes footer-container">
+    <div class="footer-top">
+      
+      <div class="footer-presentation">
+        <h3>YouCode Events</h3>
+        <p>Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>
+      </div>
+
+      
+      <div class="footer-navigation">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Événements</a></li>
+          <li><a href="#">Intervenants et partenaires</a></li>
+          <li><a href="#">Inscription</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="mailto:contact@youcode-events.example">contact@youcode-events.example</a></p>
+        <p class="locations">Youssoufia · Safi · Nador</p>
+      </div>
+    </div>
+
+
+    <div class="footer-bottom">
+      <p>© 2026 YouCode Events — site fictif réalisé en formation.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
