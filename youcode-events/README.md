@@ -2,26 +2,18 @@
 
 > Plateforme web centralisée, responsive et accessible dédiée à l'annonce et à l'inscription aux événements, ateliers, conférences et hackathons de YouCode.
 
----
-
 ## 📝 À propos du projet
 
 **YouCode Events** réunit tous les événements organisés sur les différents campus YouCode au même endroit. Le site permet aux apprenants et aux visiteurs de consulter l'agenda complet, de découvrir les intervenants et partenaires, et de s'inscrire facilement aux activités.
 
 Projet réalisé en équipe dans le cadre du cursus **YouCode**, du **12 au 16 octobre 2026**.
 
----
-
 ## 👥 Équipe et répartition des rôles
 
 | Membre | Rôle | Pages & Responsabilités |
-| :--- | :--- | :--- |
-| **[Prénom Nom]** | Lead UI/UX & Developer | Page Accueil, Design System Figma |
-| **[Prénom Nom]** | Git Master & Developer | Page Événements & Détail, Workflow Git Flow |
-| **[Prénom Nom]** | Accessibility Lead & Developer | Page Inscription & Validation Formulaire |
-| **[Prénom Nom]** | Project Manager & Developer | Page Intervenants et Partenaires, Suivi Kanban |
-
----
+| ----- | ----- | ----- |
+| **Ilyas Nabih** | Git Master & Developer | Page Accueil (co-réalisée), Page Intervenants, Page Inscription, Workflow Git Flow |
+| **Anas Ameziane** | Lead UI/UX & Developer | Page Accueil (co-réalisée), Page Événements, Page Événement Detail, Design System Figma |
 
 ## 🛠️ Technologies utilisées
 
@@ -32,11 +24,9 @@ Projet réalisé en équipe dans le cadre du cursus **YouCode**, du **12 au 16 o
 * **Versionning & Collaboration :** Git, GitHub, Git Flow
 * **Gestion de Projet :** GitHub Projects / Jira (Tableau Kanban)
 
----
-
 ## 📁 Structure du projet
 
-```text
+```
 youcode-events/
 ├── index.html                # Page d'accueil
 ├── evenements.html           # Liste des événements
@@ -51,8 +41,6 @@ youcode-events/
 │   └── icons/                # Icônes SVG / graphiques
 └── README.md                 # Documentation du projet
 ```
-
----
 
 ## ⚙️ Workflow Git & Collaboration
 
@@ -77,17 +65,12 @@ Les commits respectent la convention standard :
 * Interdiction d'auto-fusionner sa propre PR.
 * Résolution des conflits sur la branche `feature/*` après mise à jour depuis `develop`.
 
----
-
 ## 📐 Points de rupture & Choix Responsive
 
 La maquette a été conçue selon une approche **Desktop-First**, avec une intégration pensée pour s'adapter progressivement aux écrans plus petits :
-
 * **Desktop (`> 1024px`) :** Disposition multi-colonnes complète, grilles larges pour les événements et les cartes intervenants.
 * **Tablette (`768px - 1024px`) :** Recomposition des cartes en 2 colonnes, ajustement des espacements et de la taille des typographies.
 * **Mobile (`< 768px`) :** Layout à colonne unique, adaptation de la navigation (menu mobile) et optimisation de la lisibilité des formulaires.
-
----
 
 ## ♿ Accessibilité (A11y)
 
@@ -97,14 +80,9 @@ La maquette a été conçue selon une approche **Desktop-First**, avec une inté
 * **Formulaires :** Association explicite des `<label>` avec leurs `<input>`, types adaptés (`email`, `tel`) et validation HTML5 native.
 * **Navigation :** Focus visible conservé sur tous les éléments interactifs et navigation clavier fonctionnelle.
 
----
-
 ## 🔗 Liens utiles
 
-* 🎨 **Maquette Figma :** [Consulter la maquette Figma](https://figma.com)
-* 📋 **Tableau de gestion (Kanban) :** [Consulter le projet GitHub](https://github.com)
-
----
+* 🎨 **Maquette Figma :** [Consulter la maquette Figma](https://www.figma.com/design/NBGqZKzgJ8gCszCVPDFC39/YouCode-Events-%E2%80%94-Maquette--Brief-2-?node-id=5-2&p=f&t=PPPENJokvMAepO80-0)
 
 ## 🚀 Installation et exécution
 
