@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+
+        <img 
+            width="200" 
+            src="assets/images/logo.png" 
+            alt="YouCode logo"
+        />
+<div class="header-link">
+    <ul id="menuList">
+       <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="intervenants.html">Intervenants</a></li>
+        <li>
+            <a href="inscription.html" class="signin">
+                S'inscrire
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="menu-icon">
+    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+</div>
+
+<script>
+    const menuList = document.getElementById("menuList");
+
+    function toggleMenu() {
+        menuList.classList.toggle("show");
+    }
+</script>
+    </div>
+    <div class="page">
+            <h4 class="onwan">TES PREMIERS PAS À YOUCODE<br></h4>
+            <a class="oonwan">Ton aventure commence par une rencontre</a>
+            <ul >
+    <li>
+        <label for="nom">Nom</label>
+        </li>
+
+    <li>
+        <input class="in" type="text" placeholder="label" >
+    </li>
+
+    <li>
+        <label for="prenom">Prénom</label>
+        </li>
+
+    <li>
+        <input class="in" type="text" placeholder="label" >
+    </li>
+
+    <li>
+        <label for="email">Email</label>
+        </li>
+
+    <li>
+        <input class="in" type="text" placeholder="label" >
+    </li>
+
+    <li>
+        <label  for="telephone">Téléphone</label>
+        </li>
+
+    <li>
+        <input class="in" type="text" placeholder="label" >
+    </li>
+</ul>
+<div class="checkbox1">
+  <label><input type="checkbox" /> Safi <br></label>
+  <label><input type="checkbox" /> Youssoufia<br></label>
+  <label><input type="checkbox" /> Nador<br></label>
+</div>
+
+
+
+
+    </div>
+</body>
+</html>

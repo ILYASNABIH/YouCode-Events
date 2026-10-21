@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope&display=swap"
+        rel="stylesheet">
+
+    <title>Intervenants - YouCode Events</title>
+</head>
+
+<body><div class="header">
+
+        <img 
+            width="200" 
+            src="assets/images/logo.png" 
+            alt="YouCode logo"
+        />
+<div class="header-link">
+    <ul id="menuList">
+       <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="intervenants.html">Intervenants</a></li>
+        <li>
+            <a href="inscription.html" class="signin">
+                S'inscrire
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="menu-icon">
+    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+</div>
+
+<script>
+    const menuList = document.getElementById("menuList");
+
+    function toggleMenu() {
+        menuList.classList.toggle("show");
+    }
+</script>
+    </div>
+    <section class="event-detail">
+        <div>
+            <h1>Événements details</h1>
+            <p>
+                Retrouvez les ateliers, conférences, hackathons .
+            </p>
+        </div></section>
+        <section class="event-detail-contentss">
+            <div class="event-detail-contents">
+                <img src="/assets/images/pc.png" alt="pc image">
+            </div>
+            <p><i class="fa-regular fa-calendar"></i> 12 nov. 2026 · 14h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> Salle Turing, YouCode Safi</p>
+
+
+        </section>
+</body>
+</html>

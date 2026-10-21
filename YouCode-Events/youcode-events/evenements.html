@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope&display=swap"
+        rel="stylesheet">
+
+    <title>Intervenants - YouCode Events</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img
+            width="200"
+            src="assets/images/logo.png"
+            alt="YouCode logo">
+
+        <nav class="header-link">
+            <ul id="menuList">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="evenements.html">Événements</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+                <li>
+                    <a href="inscription.html" class="signin">
+                        S'inscrire
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+
+    </header>
+
+    <section class="hero1">
+        <div>
+            <h1>Intervenants</h1>
+            <p>
+                Retrouvez les ateliers, conférences, hackathons et
+                rencontres à venir, puis inscrivez-vous à ceux qui
+                vous intéressent.
+            </p>
+        </div>
+    </section>
+
+    <main class="event-contents">
+
+        <article class="event-content">
+            <img src="assets/images/web.png" alt="Atelier Flexbox et CSS Grid">
+            <div class="event-info">
+                <span class="category">Atelier</span>
+                <h3>Atelier Flexbox et CSS Grid</h3>
+                <p><i class="fa-regular fa-calendar"></i> 12 nov. 2026 · 14h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> Salle Turing, YouCode Safi</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="event-content">
+            <img src="assets/images/men.png" alt="Accessibilité Web">
+            <div class="event-info">
+                <span class="category">Conférence</span>
+                <h3>Accessibilité Web : par où commencer ?</h3>
+                <p><i class="fa-regular fa-calendar"></i> 19 nov. 2026 · 10h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> YouCode Youssoufia</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="event-content">
+            <img src="assets/images/pc.png" alt="Hackathon Green Code">
+            <div class="event-info">
+                <span class="category">Hackathon</span>
+                <h3>Hackathon Green Code</h3>
+                <p><i class="fa-regular fa-calendar"></i> 28 et 29 nov. 2026</p>
+                <p><i class="fa-solid fa-location-dot"></i> Campus YouCode Safi</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="event-content">
+            <img src="assets/images/talk.png" alt="Rencontre avec des développeurs">
+            <div class="event-info">
+                <span class="category">Rencontre</span>
+                <h3>Rencontre avec des développeurs front-end</h3>
+                <p><i class="fa-regular fa-calendar"></i> 3 déc. 2026 · 16h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> YouCode Nador</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="event-content">
+            <img src="assets/images/wave.png" alt="Atelier Git Flow">
+            <div class="event-info">
+                <span class="category">Atelier</span>
+                <h3>Atelier Git Flow en pratique</h3>
+                <p><i class="calendar"></i> 10 déc. 2026 · 14h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> Salle Hopper, YouCode Safi</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="event-content">
+            <img src="assets/images/dark.png" alt="Design au code avec Figma">
+            <div class="event-info">
+                <span class="category">Conférence</span>
+                <h3>Du design au code : travailler avec Figma</h3>
+                <p><i class="fa-regular fa-calendar"></i> 17 déc. 2026 · 10h00</p>
+                <p><i class="fa-solid fa-location-dot"></i> YouCode Youssoufia</p>
+                <a href="#">Voir le détail <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+    </main>
+
+    <script>
+        const menuList = document.getElementById("menuList");
+
+        function toggleMenu() {
+            menuList.classList.toggle("show");
+        }
+    </script>
+     <footer id="footer">
+    <h2>YouCodeEvents</h2>
+    <p>Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>
+
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="evenements.html">Événements</a></li>
+        <li><a href="intervenants.html">Intervenants</a></li>
+        <li><a href="inscription.html">S'inscrire</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
